@@ -299,104 +299,107 @@
 
   <hr>
 
-  <!-- Cart  Far Left -->
-
-
-
-  <!-- Checkout Far Right -->
-
-  <section>
-
-    <div class="Box">
-
-      <form action="">
-
-        <div class="row">
-
-          <div class="col">
-
-            <!--           <h3 class="title">billing address</h3> -->
-
-            <div class="inputBox">
-              <span>Full Name :</span>
-              <input type="text" placeholder="John Doe">
-            </div>
-            <div class="inputBox">
-              <span>Email :</span>
-              <input type="email" placeholder="example@example.com">
-            </div>
-            <div class="inputBox">
-              <span>Address :</span>
-              <input type="text" placeholder="1234 Street">
-            </div>
-            <div class="inputBox">
-              <span>City :</span>
-              <input type="text" placeholder="Miami">
-            </div>
-
-            <div class="flex">
-              <div class="inputBox">
-                <span>State :</span>
-                <input type="text" placeholder="Florida">
-              </div>
-              <div class="inputBox">
-                <span>Zip Code :</span>
-                <input type="text" placeholder="12345">
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col">
-
-
-            <!--           <h3 class="title">payment </h3> -->
-
-            <div class="inputBox">
-              <span>Cards Accepted :</span>
-              <img src="card_img.png" alt="">
-            </div>
-            <div class="inputBox">
-              <span>Name On Card :</span>
-              <input type="text" placeholder="John Doe">
-            </div>
-            <div class="inputBox">
-              <span>Credit Card Number :</span>
-              <input type="number" placeholder="1111-2222-3333-4444">
-            </div>
-            <div class="inputBox">
-              <span>Exp Month :</span>
-              <input type="text" placeholder="January">
-            </div>
-
-            <div class="flex">
-              <div class="inputBox">
-                <span>Exp Year :</span>
-                <input type="number" placeholder="2023">
-              </div>
-              <div class="inputBox">
-                <span>CVV :</span>
-                <input type="text" placeholder="1234">
-              </div>
-            </div>
-          </div>
+  <div class="container">
+    <div class="row">
+      <!-- Shopping Cart (Left Side, Centered Vertically) -->
+      <div class="col-md-6 d-flex flex-column align-items-center">
+        <h2>Shopping Cart</h2>
+        <div id="cart" style="width: 100%; max-width: 500px;">
+          <table id="cart-items" class="table table-striped">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Items will be added here -->
+            </tbody>
+          </table>
+          <p><strong>Total:</strong> $<span id="total">0.00</span></p>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="col-auto my-1">
-              <input type="submit" value="Checkout" class="submit-btn">
+      </div>
 
-            </div>
+      <!-- Checkout Section (Far Right) -->
+      <div class="col-md-6 checkout-section">
+        <section>
+          <div class="Box">
+            <form action="">
+              <div class="row">
+                <div class="col">
+                  <div class="inputBox">
+                    <span>Full Name :</span>
+                    <input type="text" placeholder="John Doe">
+                  </div>
+                  <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="example@example.com">
+                  </div>
+                  <div class="inputBox">
+                    <span>Address :</span>
+                    <input type="text" placeholder="1234 Street">
+                  </div>
+                  <div class="inputBox">
+                    <span>City :</span>
+                    <input type="text" placeholder="Miami">
+                  </div>
+                  <div class="flex">
+                    <div class="inputBox">
+                      <span>State :</span>
+                      <input type="text" placeholder="Florida">
+                    </div>
+                    <div class="inputBox">
+                      <span>Zip Code :</span>
+                      <input type="text" placeholder="12345">
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="inputBox">
+                    <span>Cards Accepted :</span>
+                    <img src="card_img.png" alt="">
+                  </div>
+                  <div class="inputBox">
+                    <span>Name On Card :</span>
+                    <input type="text" placeholder="John Doe">
+                  </div>
+                  <div class="inputBox">
+                    <span>Credit Card Number :</span>
+                    <input type="text" placeholder="1111-2222-3333-4444">
+                  </div>
+                  <div class="inputBox">
+                    <span>Exp Month :</span>
+                    <input type="text" placeholder="January">
+                  </div>
+                  <div class="flex">
+                    <div class="inputBox">
+                      <span>Exp Year :</span>
+                      <input type="number" placeholder="2023">
+                    </div>
+                    <div class="inputBox">
+                      <span>CVV :</span>
+                      <input type="text" placeholder="1234">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="col-auto my-1">
+                    <input type="submit" value="Checkout" class="submit-btn">
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-        </div>
-    </div>
-    </form>
-    </div>
+        </section>
 
-  </section>
-
+      </div>
+    </div>
+  </div>
+  
   <hr>
+  <!-- Your existing footer -->
 
   <!-- Footer Start -->
   <section class="footer container">
@@ -451,8 +454,6 @@
         </div>
       </div>
     </div>
-
-  </section>
 </body>
 
 </html>
