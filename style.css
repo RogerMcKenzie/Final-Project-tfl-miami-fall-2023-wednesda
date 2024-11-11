@@ -24,6 +24,17 @@ html {
   flex-direction: column;
 }
 
+/* Keep the header text white */
+.header h1 {
+  color: #ffffff;
+}
+
+/* Set the paragraph text to light grey */
+.header .header-descr {
+  color: #777; /* Replace #777 with the light grey color you prefer */
+}
+
+
 .footer {
   padding: 30px;
 }
