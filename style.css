@@ -24,15 +24,19 @@ html {
 }
 
 /* Keep the header text white */
-.header p {
-  color: #ffffff !important;
+.header h1 {
+  color: #ffffff;
 }
 
-/* Set the paragraph text to light grey */
+/* Make the specific paragraph text white */
+.text-white {
+  color: #ffffff;
+}
+
+/* Set the general paragraph text in the header to light grey */
 .header .header-descr {
-  color: #666; /* Replace #777 with the light grey color you prefer */
+  color: #777; /* Use a light grey color */
 }
-
 
 .footer {
   padding: 30px;
