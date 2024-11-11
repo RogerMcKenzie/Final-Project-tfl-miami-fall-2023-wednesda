@@ -63,18 +63,6 @@ html {
 
 }
 
-.section-class {
-  margin-bottom: 0; /* Adjust the bottom margin */
-  padding-bottom: 0; /* Adjust the bottom padding */
-}
-
-.image-class {
-  margin: 0; /* Remove margin */
-  padding: 0; /* Remove padding */
-}
-
-
-
 .color {
   background-color: #dfb2b0;
 
