@@ -18,20 +18,19 @@ html {
   background-repeat: repeat;
   background-size: cover;
   text-align: center;
-  color: #ffffff !important;
   justify-content: center;
   display: flex;
   flex-direction: column;
 }
 
 /* Keep the header text white */
-.header h1 {
+.header p {
   color: #ffffff;
 }
 
 /* Set the paragraph text to light grey */
 .header .header-descr {
-  color: #777; /* Replace #777 with the light grey color you prefer */
+  color: #666; /* Replace #777 with the light grey color you prefer */
 }
 
 
