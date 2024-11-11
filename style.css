@@ -45,9 +45,10 @@ html {
 
 }
 
-.header-descr {
-  color: #ffffff !important;
+section.header p.header-descr {
+  color: #ffffff;
 }
+
 
 .color {
   background-color: #dfb2b0;
