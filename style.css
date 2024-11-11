@@ -1,9 +1,13 @@
 html {
   height: 100%;
   width: 100%;
+
+
 }
 
 .header {
+
+
   text-align: center;
 }
 
@@ -24,7 +28,7 @@ html {
   padding: 30px;
 }
 
-.-image {
+.header-image {
   width: 200px;
   height: 200px;
 }
@@ -44,6 +48,9 @@ html {
   align-items: center;
 
 }
+
+
+
 
 .color {
   background-color: #dfb2b0;
@@ -212,7 +219,7 @@ h5 {
 
 p {
   font-size: 14px;
-  color: #Ffffff;
+  color: #777;
 }
 
 .btn-fancy {
